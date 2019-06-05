@@ -20,16 +20,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    
+        updateDiceImages()
         
     }
     @IBAction func rollButtonPressed(_ sender: UIButton) {
-        updateDiceImages()
-    }
-    
-    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-        
         updateDiceImages()
     }
     
